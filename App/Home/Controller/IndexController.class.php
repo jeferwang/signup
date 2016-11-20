@@ -22,6 +22,9 @@ class IndexController extends Controller {
 //		判断账户类型，并找出对应的密码
 		if ($_POST['id'] == 'teacher') {//老师身份
 			$info = M('Teacher')->where(array('code' => $_POST['username']))->find();
+			if ($info['del']==1) {
+				$this->error('账号不可用！');
+			}
 //			开始判断比赛状态
 //			$match=M('Match')->where(array('id'=>$info['matchid']))->find();
 //			if($match['status']!=1){
@@ -47,6 +50,9 @@ class IndexController extends Controller {
 			$info = M('Student')->where(array('code' => $_POST['username']))->find();
 			if (!$info) {
 				$this->error('找不到该用户,请检查用户名或者更改所选用户类型');
+			}
+			if ($info['del']==1) {
+				$this->error('账号不可用！');
 			}
 //			开始判断比赛状态
 			$match = M('Match')->where(array('id' => $info['matchid']))->find();
