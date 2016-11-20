@@ -1,0 +1,106 @@
+/*创建项目开始*/
+.creative{
+	width: 750px;
+	margin: 0 auto;
+}
+.creative form div{
+	margin-bottom: 30px;
+}
+.creative form span{
+	font-size: 18px;
+	margin-right: 20px;
+	vertical-align: middle
+}
+.creative form span.special{
+	float: left;
+}
+.creative form input[name="name"]{
+	width: 300px;
+	height: 20px;
+	border-bottom: 1px solid #003567;
+	vertical-align: middle
+}
+.creative form textarea{
+	width: 620px;
+	height: 280px;
+	border :1px solid #003567;
+	border-radius: 14px;
+	margin: 5px;
+	padding: 10px;
+}
+.creative form input[name="file"]{
+	width: 255px;
+	height: 22px;
+	border: 1px solid #003567;
+	border-radius: 5px;
+	padding-left: 5px;
+	vertical-align: middle;
+}
+.creative form span a.special{
+	margin-left: 10px;
+}
+.creative form input[type="checkbox"]{
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+}
+.creative form span a{
+	font-size: 14px;
+	position: relative;
+	top: -4px;
+	vertical-align: middle;
+}
+.creative form div.button{
+	text-align: center;
+}
+.creative form input[type="submit"]{
+	width: 82px;
+	height: 26px;
+	background-color: #fff;
+	border: 1px solid #003567;
+	border-radius: 5px;
+	margin:0 30px;
+	cursor: pointer;
+}
+/*创建项目结束*/
+
+/*项目列表开始*/
+
+/*审核的第二个页面（vartify_second）微调*/
+.verify_second .game ul.page li p span{
+	color: #000;
+}
+.verify_second .game ul.page li p span.special{
+	color: #446473;
+	margin-right: 10px;
+}
+.verify_second .game ul.page li p a{
+	width: 30px;
+}
+/*审核的第二个页面（vartify_second）微调*/
+
+/*评分的第二个页面（score_second）微调*/
+.score_second .game ul.page li input[type="checkbox"]{
+	position: absolute;
+	left: 0;
+	top: 5px;
+	vertical-align: middle;
+}
+.score_second .game ul.page li p input{
+	width: 40px;
+	border: 1px solid #666;
+	text-align: center;
+	border-radius: 2px;
+}
+.score_second .game ul.page li a.a{
+	padding-left: 20px;
+}
+.score_second .game ul.page li p span{
+	color: #000;
+}
+.score_second .game ul.page li p a{
+	width: 30px;
+}
+/*评分的第二个页面（score_second）微调*/
+
+/*项目列表结束*/

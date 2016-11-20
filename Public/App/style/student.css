@@ -1,0 +1,69 @@
+.upload form{
+	display: block;
+	width: 750px;
+	margin:0 auto;
+}
+// .upload_nav{
+// 	width: 350px;
+// }
+.upload_nav:first-child{
+	// margin-right: 50px;
+}
+.upload_nav p{
+	width: 1px;
+	height: 150px;
+	padding:50px 50px 0 0;
+	border-right: 1px solid #e1a2a2;
+	vertical-align: middle;
+	display: inline-block;
+	font-size: 20px;
+}
+.upload_nav input[type="submit"]{
+	background-color: #446473;
+	color: #fff;
+	font-size: 14px;
+}
+.clearfix input[value="下载文档"]{
+	width: 120px;
+	height: 45px;
+	margin-left:323px;
+	cursor: pointer;
+}
+.upload_nav div{
+	position: relative;
+}
+.upload_nav input[name="team"]{
+	border-bottom: 1px solid #000;
+	// width: 150px;
+	height: 20px;
+	margin-bottom: 10px;
+	width: 390px;
+	font-size: 20px;
+	padding: 10px 15px;
+	//text-align: center;
+}
+.upload_nav a{
+	font-size: 14px;
+	color: #333;
+}
+.upload_nav input[value="上传"]{
+	padding: 10px 20px;
+	position: absolute;
+	/*bottom: 20px;*/
+	right: 3px;
+	cursor: pointer;
+	font-size: 14px;
+}
+.upload_nav_team{width: 480px;margin:30px auto;}
+.upload_nav_team textarea{border: 1px solid #ccc;margin-top: 15px;font-size: 18px;padding: 10px;}
+.upload_nav_team span{display: inline-block;margin-right: 10px;}
+.upload_nav_team .upload_style{font-size: 12px;display: inline-block;margin-left: 80px;}
+.upload_nav_team .zuopin{float:left;margin-top: 10px;}
+.upload_nav_team .shangchuan{border:1px solid #000;height: 25px;width: 260px;margin-top: 8px;margin-left: 3px;vertical-align: middle;}
+.upload_nav_team button{padding:10px 15px;background: #446473;color: #fff;margin-top: 20px;font-size: 14px;}
+
+
+
+
+
+

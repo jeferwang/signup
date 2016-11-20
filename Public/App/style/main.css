@@ -1,0 +1,234 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0
+}
+a,li{
+	list-style: none;
+	text-decoration: none;
+	color: #000;
+}
+input,textarea{
+	outline: none;
+}
+body{
+	font-family: "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix{
+	display: inline-block;
+}
+#header{
+	background: url(../img/head_img.jpg) no-repeat 50%;
+	width: 100%;
+	height: 420px;
+	min-width: 750px;
+}
+#header p{
+	width: 750px;
+	margin:0 auto;
+	padding-top: 10px;
+	text-align: right;
+	font-size: 16px;
+}
+#header p span{
+	padding-right: 10px;
+	border-right: 2px solid #e1a2a2;
+}
+#header p a{
+	padding-left: 5px;
+}
+#header p a:hover{
+	color: #e1a2ae;
+	text-decoration: underline;
+}
+#nav{
+	position: relative;
+	top: -27px;
+}
+#nav ul{
+	width: 750px;
+	margin: 0 auto;
+	text-align: center;
+}
+#nav ul li{
+	display: inline-block;
+}
+#nav ul li:first-child{
+	margin-right: 40px;
+}
+#nav ul li:first-child+li+li{
+	margin-left: 40px;
+}
+#nav ul li a{
+	cursor: pointer;
+	position: relative;
+}
+
+/*六边形开始*/
+
+/*线开始*/
+#nav ul li a i{
+	width: 70px;
+	height: 3px;
+	background: #e1a2a2;
+	display: block;
+}
+#nav ul li a i.i_left{
+	position: absolute;
+	left: 2px;
+	top: 25px;
+}
+#nav ul li a i.i_right{
+	position: absolute;
+	left: 146px;
+	top: 25px;
+}
+/*线结束*/
+.hexagon{
+	margin: 0 70px;
+}
+.hexagon span{
+	position: absolute;
+	top: 30%;
+	left: 43%;
+	color: #fefefe;
+}
+.hexagon s {
+    width: 44px;
+    display: block;
+    overflow: hidden;
+    border-left: 17px dotted transparent;
+    border-right: 17px dotted transparent;
+    border-bottom: 27px solid #e1a2a2;	/*默认选中颜色*/
+}
+.hexagon b {
+    width: 44px;
+    display: block;
+    overflow: hidden;
+    border-left: 17px dotted transparent;
+    border-right: 17px dotted transparent;
+    border-top: 27px solid #e1a2a2;	/*默认选中颜色*/
+}
+/*可选颜色*/
+#nav ul li a.select i{
+	background-color: #446473;
+}
+#nav ul li a.select .hexagon s{
+	border-bottom: 27px solid #446473;
+}
+#nav ul li a.select .hexagon b{
+	border-top: 27px solid #446473;
+}
+/*不可选颜色*/
+#nav ul li a.unselect i{
+	background-color: #b9b8b8;
+}
+#nav ul li a.unselect .hexagon s{
+	border-bottom: 27px solid #b9b8b8;
+}
+#nav ul li a.unselect .hexagon b{
+	border-top: 27px solid #b9b8b8;
+}
+/*六边形结束*/
+
+.nav_title{
+	position: relative;
+	width: 750px;
+	margin: 0 auto;
+	margin-top: 45px;
+	margin-bottom: 60px;
+	border-bottom: 1px solid #e1a2a2;
+}
+.nav_title ul{
+	width: 750px;
+	margin: 0 auto;
+	text-align: center;
+}
+.nav_title ul li{
+	position: relative;
+	top: 2px;
+	width: 122px;
+	padding-bottom: 2px;
+	text-align: center;
+	display: inline-block;
+	font-size: 20px;
+}
+.nav_title ul li a{
+	cursor: pointer;
+}
+.nav_title ul li.nav_focus{
+	border-bottom: 3px solid #e1a2a2;
+}
+.nav_title .arrow{
+	display: inline-block;
+	line-height: 31px;
+}
+.nav_title .arrow a{
+	font-size: 20px;
+	color: #e1a2a2;
+}
+.nav_title span.left{
+	left: 250px;
+}
+.game{
+	margin-top: 100px;
+	width: 750px;
+	margin: 0 auto;
+}
+.game ul.page li{
+	position: relative;
+	margin: 10px 0;
+}
+.game ul.page li a{
+	display: inline-block;
+	width: 650px;
+}
+.game ul.page li p{
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 14px;
+}
+.game ul.page li p span:first-child{
+	color: #446473;
+	padding-right: 5px;
+}
+.game ul.page li p span:first-child+span{
+	border-left:1px solid #446473;
+	padding-left: 5px;
+}
+.game ul.page li p span.special{
+	color: #e1a2ae;
+}
+.game .pagenavi{
+	margin:60px 0;
+	text-align: center;
+}
+.pagenavi ul{
+	position: relative;
+	margin: 20px 0;
+}
+.pagenavi ul li{
+	display: inline-block;
+}
+.pagenavi ul li a.special{
+	color: #e1a2ae;
+	border-bottom: 1px solid #e1a2ee;
+}
+.pagenavi ul span{
+	position: absolute;
+}
+.pagenavi ul span.span_left{
+	left: 200px;
+}
+.pagenavi ul span.span_right{
+	right: 200px;
+}

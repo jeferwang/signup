@@ -1,0 +1,14 @@
+*{margin: 0;padding: 0;}
+.footer-style{
+				margin: 100px auto 0 auto;
+				width: 1366px;
+			  background-color: #fff;
+			  height: 30px;
+			  line-height: 30px;
+			  background-color: #333;
+			  color: #fff;
+			  }
+.footer-style p{text-align: center;
+                font-size: 14px;
+                font-family: "微软雅黑";
+        }

@@ -1,0 +1,92 @@
+			body,ul,div,li,span,img,p{
+				padding: 0px;
+				margin: 0px;
+			}
+			body{
+				background: url(../img/bg.jpg) no-repeat 50%;
+				font-family: "微软雅黑";
+			}
+			#mainbody{
+				width: 910px;
+				margin: auto;
+			}
+			#box{
+				height: 580px;
+				width: 680px;
+				margin-top: 40px;
+				border-radius: 10px;
+				background: rgba(144,144,144,0.1);
+				float: left;
+			}
+			#pcontext{
+				width: 650px;
+				height: 580px;
+				margin:auto;
+				background: rgba(255,255,255,0.5);
+			}
+			#pbox{
+				margin: 0px 20px 20px 20px;
+				width: 610px;
+				height: 160px;
+			}
+			#pbox img{
+				float: left;
+				margin-top: 10px;
+			}
+			#perif{
+				margin-left: 20px;
+				margin-top: 20px;
+				width: 610px;
+				height: 370px;
+				overflow: auto;
+			}
+			#name{
+				text-align: left;
+				margin-left: 150px;
+				line-height: 170px;
+				font-size: 40px;
+				font-family:"微软雅黑";
+				color: #999;
+			}
+			#other{
+				margin-top: 60px;
+				margin-left: 20px;
+				background: white;
+				filter: alpha(60);
+				opacity:0.6;
+				border-radius: 5px;
+				float: left;
+				}
+			
+			ul{
+            	list-style: none;
+            	border-radius: 5px;
+            	border: 1px solid #ddd;
+            }
+            ul li{
+            	line-height: 30px;
+            	display: block;
+            	height: 30px;
+            	width: 200px;
+            	border-bottom: 1px solid #ddd;
+            }
+
+            ul:last-child{
+            	border-bottom: 0px solid ;
+            }
+			.panel-heading {
+			    color: #333;
+			    background-color: #f5f5f5;
+			    border-color: #ddd;
+			}
+			.panel-heading a{
+				float: right;
+				color: black;
+			}
+			.panel-heading a:hover{
+				color: blue;
+			}
+			li a{
+				margin-left: 5px;
+				text-decoration: none;
+			}

@@ -1,0 +1,114 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0
+}
+a,li{
+	list-style: none;
+	text-decoration: none;
+	color: #000;
+}
+input,textarea{
+	outline: none;
+}
+.clearfix:after {
+　　content: ".";
+　　display: block;
+　　height: 0;
+　　clear: both;
+　　visibility: hidden;
+}
+.clearfix {
+	display: inline-block;
+}
+body{
+	background: url(../img/bg.jpg) no-repeat 50%;
+	font-family: "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+}
+#header{
+	width: 750px;
+	margin: 100px auto;
+	text-align: center;
+	color: #fff;
+	position: relative;
+}
+#header hr{
+	position: absolute;
+	top: 20px;
+	display: inline-block;
+	width: 127px;
+	height: 2px;
+	background-color: #fff;
+}
+#header hr:first-child{
+	left:80px;
+}
+#header hr:first-child+hr{
+	right: 80px;
+}
+#header h1{
+	display: inline-block;
+	font-weight: 100;
+}
+#container{
+	width: 750px;
+	margin: 0 auto;
+	position: relative;
+}
+#container form{
+	width: 750px;
+	height: 160px;
+	background-color: #fff;
+	padding-top: 40px;
+}
+#container form div{
+	position: relative;
+	padding-bottom: 30px;
+}
+#container form div img{
+	position: absolute;
+	width: 20px;
+	top: 0;
+	left: 150px;
+}
+#container form div input{
+	width: 420px;
+	height: 30px;
+	margin: 0 auto;
+	display: block;
+	padding-left: 30px;
+	font-size: 18px;
+	border-bottom: 1px solid #b9b8b8;
+}
+#container form input[type="submit"]{
+	width: 300px;
+	margin: 0 auto;
+	height: 40px;
+	display: block;
+	margin-top: 10px;
+	background-color: #e1a2a2;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	cursor: pointer;
+}
+#container form div.radio{
+	margin:30px 0 0 100px;
+}
+#container form div.radio input{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	margin: 0 20px;
+	border-bottom: 0;
+}
+#container form div.radio span{
+	color: #fff;
+}
+#footer{
+	margin-top: 180px;
+	text-align: center;
+	color: #ccc;
+	font-size: 14px;
+}

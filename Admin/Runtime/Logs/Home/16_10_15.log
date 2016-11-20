@@ -1,0 +1,1445 @@
+[ 2016-10-15T01:15:33+08:00 ] 127.0.0.1 /signup/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002476s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0347s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = null AND `username` = null LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-10-15T01:15:33+08:00 ] 127.0.0.1 /signup/admin.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002507s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000344s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002689s ]
+
+[ 2016-10-15T01:15:34+08:00 ] 127.0.0.1 /signup/admin.php/Home/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000268s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004113s ]
+
+[ 2016-10-15T01:15:37+08:00 ] 127.0.0.1 /signup/admin.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000255s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002452s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `reg_admin` WHERE `username` = 'admin' AND `password` = '501e0bbac99eb3673e5df715eacd9d0efb5601f5' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `reg_admin` SET `logindate`='2016-10-15 01:15:37',`loginip`='127.0.0.1' WHERE `username` = 'admin' AND `password` = '501e0bbac99eb3673e5df715eacd9d0efb5601f5' [ RunTime:0.0085s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000351s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002113s ]
+
+[ 2016-10-15T01:15:38+08:00 ] 127.0.0.1 /signup/admin.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001767s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000343s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001293s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001897s ]
+
+[ 2016-10-15T01:15:41+08:00 ] 127.0.0.1 /signup/admin.php/Home/Task/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002587s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0033s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\signup\Admin\Home\Controller\TaskController.class.php 第 18 行.
+SQL: SELECT * FROM `reg_match` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reg_match` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000365s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001607s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003393s ]
+
+[ 2016-10-15T01:15:42+08:00 ] 127.0.0.1 /signup/admin.php/Home/Task/taskList/mid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002299s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_teacher` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `level` = 3 AND `matchid` = 1 ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0034s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\signup\Admin\Home\Controller\TaskController.class.php 第 33 行.
+SQL: SELECT * FROM `reg_reginfo` WHERE `status` IN (2,3) AND `matchid` = 1 ORDER BY collegeid asc LIMIT 0,20   [ RunTime:0.0627s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `reg_college` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `reg_task` WHERE `projectid` = 6  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reg_reginfo` WHERE `status` = 2 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000363s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001129s ]
+NOTIC: [8] Undefined index: pw D:\phpStudy\WWW\signup\Admin\Runtime\Cache\Home\b2761e67ebc35b56fa8988d4c4b72e16.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001893s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002992s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005206s ]
+
+[ 2016-10-15T01:15:46+08:00 ] 127.0.0.1 /signup/admin.php/Home/Task/runAddTask.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002259s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `reg_task` WHERE `projectid` = 6 AND `pwid` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `reg_task` (`pwid`,`projectid`) VALUES ('3','6') [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000553s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001798s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002420s ]
+
+[ 2016-10-15T01:15:47+08:00 ] 127.0.0.1 /signup/admin.php/Home/Task/taskList/mid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000220s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003485s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_teacher` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `level` = 3 AND `matchid` = 1 ORDER BY id asc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0036s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\signup\Admin\Home\Controller\TaskController.class.php 第 33 行.
+SQL: SELECT * FROM `reg_reginfo` WHERE `status` IN (2,3) AND `matchid` = 1 ORDER BY collegeid asc LIMIT 0,20   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `reg_college` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `reg_task` WHERE `projectid` = 6  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reg_reginfo` WHERE `status` = 2 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000363s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001382s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070757s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001961s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002656s ]
+
+[ 2016-10-15T01:15:51+08:00 ] 127.0.0.1 /signup/admin.php/Home/Task/runAddTask.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000239s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002330s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `reg_task` WHERE `projectid` = 6 AND `pwid` = 5 LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `reg_task` (`pwid`,`projectid`) VALUES ('5','6') [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000354s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002209s ]
+
+[ 2016-10-15T01:15:57+08:00 ] 127.0.0.1 /signup/admin.php/Home/Task/taskList/mid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000193s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002764s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_teacher` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `level` = 3 AND `matchid` = 1 ORDER BY id asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0036s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\signup\Admin\Home\Controller\TaskController.class.php 第 33 行.
+SQL: SELECT * FROM `reg_reginfo` WHERE `status` IN (2,3) AND `matchid` = 1 ORDER BY collegeid asc LIMIT 0,20   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `reg_college` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `reg_task` WHERE `projectid` = 6  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reg_reginfo` WHERE `status` = 2 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000354s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001599s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001657s ]
+
+[ 2016-10-15T01:16:57+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000166s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001697s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0036s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\signup\Admin\Home\Controller\ReginfoController.class.php 第 19 行.
+SQL: SELECT * FROM `reg_match` LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reg_match` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000337s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049686s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001513s ]
+
+[ 2016-10-15T01:16:59+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/reginfo/m/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002418s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `matchid` = 1 ORDER BY date desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0039s ]
+SQL: SELECT TE.CODE,TA.SCORE,TA.SUGGEST FROM reg_task AS TA left join reg_teacher AS TE on TA.pwid=TE.id  WHERE `projectid` = '6'  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `reg_college` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `reg_college`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000391s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001351s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077671s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002787s ]
+
+[ 2016-10-15T01:17:05+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/getAllInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001483s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 155 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 158 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 161 行.
+NOTIC: [8] Undefined index: result D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 172 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002201s ]
+
+[ 2016-10-15T01:20:23+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/reginfo/m/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000191s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002180s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `matchid` = 1 ORDER BY date desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0031s ]
+SQL: SELECT TE.CODE,TA.SCORE,TA.SUGGEST FROM reg_task AS TA left join reg_teacher AS TE on TA.pwid=TE.id  WHERE `projectid` = '6'  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `reg_college` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `reg_college`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000383s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060769s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001992s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002228s ]
+
+[ 2016-10-15T01:20:25+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/getAllInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000164s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002471s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 153 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 160 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 163 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 166 行.
+NOTIC: [8] Undefined index: result D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 177 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001948s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002724s ]
+
+[ 2016-10-15T01:20:37+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/reginfo/m/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000157s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001867s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `matchid` = 1 ORDER BY date desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0032s ]
+SQL: SELECT TE.CODE,TA.SCORE,TA.SUGGEST FROM reg_task AS TA left join reg_teacher AS TE on TA.pwid=TE.id  WHERE `projectid` = '6'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `reg_college` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `reg_college`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000375s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001732s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001833s ]
+
+[ 2016-10-15T01:20:38+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/getAllInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002497s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 153 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 160 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 163 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 166 行.
+NOTIC: [8] Undefined index: result D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 177 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002473s ]
+
+[ 2016-10-15T01:20:51+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/reginfo/m/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001705s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `matchid` = 1 ORDER BY date desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0034s ]
+SQL: SELECT TE.CODE,TA.SCORE,TA.SUGGEST FROM reg_task AS TA left join reg_teacher AS TE on TA.pwid=TE.id  WHERE `projectid` = '6'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `reg_college` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `reg_college`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000383s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057951s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001677s ]
+
+[ 2016-10-15T01:20:52+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/getAllInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002073s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 153 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 160 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 163 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 166 行.
+NOTIC: [8] Undefined index: result D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 177 行.
+NOTIC: [2] sprintf(): Too few arguments D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 177 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002954s ]
+
+[ 2016-10-15T01:21:00+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/reginfo/m/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000189s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003103s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `matchid` = 1 ORDER BY date desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0035s ]
+SQL: SELECT TE.CODE,TA.SCORE,TA.SUGGEST FROM reg_task AS TA left join reg_teacher AS TE on TA.pwid=TE.id  WHERE `projectid` = '6'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `reg_college` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `reg_college`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000348s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002598s ]
+
+[ 2016-10-15T01:21:01+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/getAllInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001579s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 153 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 160 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 163 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 166 行.
+NOTIC: [8] Undefined index: result D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 177 行.
+NOTIC: [2] sprintf(): Too few arguments D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 177 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001512s ]
+
+[ 2016-10-15T01:21:06+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/reginfo/m/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000228s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001957s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002566s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `matchid` = 1 ORDER BY date desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0032s ]
+SQL: SELECT TE.CODE,TA.SCORE,TA.SUGGEST FROM reg_task AS TA left join reg_teacher AS TE on TA.pwid=TE.id  WHERE `projectid` = '6'  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `reg_college` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `reg_college`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000643s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001880s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002051s ]
+
+[ 2016-10-15T01:21:07+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/getAllInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000237s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001799s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 153 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 160 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 163 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 166 行.
+NOTIC: [8] Undefined index: result D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 177 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001914s ]
+
+[ 2016-10-15T01:21:25+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/reginfo/m/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000220s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002602s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `matchid` = 1 ORDER BY date desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0034s ]
+SQL: SELECT TE.CODE,TA.SCORE,TA.SUGGEST FROM reg_task AS TA left join reg_teacher AS TE on TA.pwid=TE.id  WHERE `projectid` = '6'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `reg_college` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `reg_college`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000376s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001929s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002291s ]
+
+[ 2016-10-15T01:21:26+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/getAllInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002554s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 153 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 153 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 160 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 163 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 166 行.
+NOTIC: [8] Undefined index: result D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 177 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001520s ]
+
+[ 2016-10-15T01:21:39+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/reginfo/m/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000170s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002363s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `matchid` = 1 ORDER BY date desc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0032s ]
+SQL: SELECT TE.CODE,TA.SCORE,TA.SUGGEST FROM reg_task AS TA left join reg_teacher AS TE on TA.pwid=TE.id  WHERE `projectid` = '6'  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `reg_college` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `reg_college`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000376s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002342s ]
+
+[ 2016-10-15T01:21:40+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/getAllInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002074s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 153 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 153 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 160 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 163 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 166 行.
+NOTIC: [8] Undefined index: result D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 177 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002250s ]
+
+[ 2016-10-15T01:22:21+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/reginfo/m/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002497s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `matchid` = 1 ORDER BY date desc  [ RunTime:0.0005s ]
+
+[ 2016-10-15T01:22:28+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/reginfo/m/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002519s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `matchid` = 1 ORDER BY date desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0036s ]
+SQL: SELECT TE.CODE,TA.SCORE,TA.SUGGEST FROM reg_task AS TA left join reg_teacher AS TE on TA.pwid=TE.id  WHERE `projectid` = '6'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `reg_college` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `reg_college`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000362s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059756s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002641s ]
+
+[ 2016-10-15T01:22:29+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/getAllInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002280s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 153 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 153 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 160 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 163 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 166 行.
+NOTIC: [8] Undefined index: result D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 177 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000922s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001505s ]
+
+[ 2016-10-15T01:22:49+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/reginfo/m/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000191s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002750s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `matchid` = 1 ORDER BY date desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0034s ]
+SQL: SELECT TE.CODE,TA.SCORE,TA.SUGGEST FROM reg_task AS TA left join reg_teacher AS TE on TA.pwid=TE.id  WHERE `projectid` = '6'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `reg_college` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `reg_college`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000371s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001728s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001909s ]
+
+[ 2016-10-15T01:22:50+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/getAllInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000287s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001709s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 153 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 153 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 160 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 163 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 166 行.
+NOTIC: [8] Undefined index: result D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 177 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001933s ]
+
+[ 2016-10-15T01:23:01+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/reginfo/m/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000231s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002385s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `matchid` = 1 ORDER BY date desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0033s ]
+SQL: SELECT TE.CODE,TA.SCORE,TA.SUGGEST FROM reg_task AS TA left join reg_teacher AS TE on TA.pwid=TE.id  WHERE `projectid` = '6'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `reg_college` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `reg_college`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000334s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001767s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002501s ]
+
+[ 2016-10-15T01:23:03+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/getAllInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002755s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 153 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 153 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 160 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 163 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 166 行.
+NOTIC: [8] Undefined index: result D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 177 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002628s ]
+
+[ 2016-10-15T01:23:18+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/reginfo/m/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002440s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `matchid` = 1 ORDER BY date desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0034s ]
+SQL: SELECT TE.CODE,TA.SCORE,TA.SUGGEST FROM reg_task AS TA left join reg_teacher AS TE on TA.pwid=TE.id  WHERE `projectid` = '6'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `reg_college` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `reg_college`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000356s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002525s ]
+
+[ 2016-10-15T01:23:20+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/getAllInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000330s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001941s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 160 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 163 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 166 行.
+NOTIC: [8] Undefined index: result D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 177 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001897s ]
+
+[ 2016-10-15T01:23:33+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/reginfo/m/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002281s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `matchid` = 1 ORDER BY date desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0040s ]
+SQL: SELECT TE.CODE,TA.SCORE,TA.SUGGEST FROM reg_task AS TA left join reg_teacher AS TE on TA.pwid=TE.id  WHERE `projectid` = '6'  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `reg_college` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `reg_college`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000765s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002439s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002127s ]
+
+[ 2016-10-15T01:23:34+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/getAllInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000331s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001724s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 160 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 163 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 166 行.
+NOTIC: [8] Undefined index: result D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 177 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002119s ]
+
+[ 2016-10-15T01:24:05+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/reginfo/m/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002054s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `matchid` = 1 ORDER BY date desc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0046s ]
+SQL: SELECT TE.CODE,TA.SCORE,TA.SUGGEST FROM reg_task AS TA left join reg_teacher AS TE on TA.pwid=TE.id  WHERE `projectid` = '6'  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `reg_college` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `reg_college`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000539s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001716s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001971s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003268s ]
+
+[ 2016-10-15T01:24:06+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/getAllInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001426s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 161 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 164 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: result D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 178 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002370s ]
+
+[ 2016-10-15T01:24:15+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/reginfo/m/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002228s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `matchid` = 1 ORDER BY date desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0035s ]
+SQL: SELECT TE.CODE,TA.SCORE,TA.SUGGEST FROM reg_task AS TA left join reg_teacher AS TE on TA.pwid=TE.id  WHERE `projectid` = '6'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `reg_college` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `reg_college`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000382s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002250s ]
+
+[ 2016-10-15T01:24:16+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/getAllInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000163s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003177s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 153 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 161 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 164 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: result D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 178 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001942s ]
+
+[ 2016-10-15T01:27:32+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/reginfo/m/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000148s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002376s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `matchid` = 1 ORDER BY date desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0036s ]
+SQL: SELECT TE.CODE,TA.SCORE,TA.SUGGEST FROM reg_task AS TA left join reg_teacher AS TE on TA.pwid=TE.id  WHERE `projectid` = '6'  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `reg_college` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `reg_college`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000372s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002368s ]
+
+[ 2016-10-15T01:27:34+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/export.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000180s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002501s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `reg_reginfo`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0035s ]
+SQL: SELECT `title` FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0035s ]
+SQL: SELECT `college` FROM `reg_college` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0034s ]
+SQL: SELECT TE.CODE,TA.SCORE,TA.SUGGEST FROM reg_task AS TA left join reg_teacher AS TE on TA.pwid=TE.id  WHERE `projectid` = '6'  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: score D:\phpStudy\WWW\signup\Admin\Home\Controller\ReginfoController.class.php 第 78 行.
+
+[ 2016-10-15T01:37:23+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/export.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000263s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002647s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `reg_reginfo`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0039s ]
+SQL: SELECT `title` FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0037s ]
+SQL: SELECT `college` FROM `reg_college` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0041s ]
+SQL: SELECT TE.CODE,TA.SCORE,TA.SUGGEST FROM reg_task AS TA left join reg_teacher AS TE on TA.pwid=TE.id  WHERE `projectid` = '6'  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: score D:\phpStudy\WWW\signup\Admin\Home\Controller\ReginfoController.class.php 第 78 行.
+
+[ 2016-10-15T01:38:09+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/export.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002050s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `reg_reginfo`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0035s ]
+SQL: SELECT `title` FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0030s ]
+SQL: SELECT `college` FROM `reg_college` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0032s ]
+SQL: SELECT TE.CODE,TA.SCORE,TA.SUGGEST FROM reg_task AS TA left join reg_teacher AS TE on TA.pwid=TE.id  WHERE `projectid` = '6'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: score D:\phpStudy\WWW\signup\Admin\Home\Controller\ReginfoController.class.php 第 78 行.
+
+[ 2016-10-15T01:39:05+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/reginfo/m/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000191s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002407s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `matchid` = 1 ORDER BY date desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0036s ]
+SQL: SELECT TE.CODE,TA.SCORE,TA.SUGGEST FROM reg_task AS TA left join reg_teacher AS TE on TA.pwid=TE.id  WHERE `projectid` = '6'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `reg_college` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `reg_college`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000480s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001545s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002045s ]
+
+[ 2016-10-15T01:39:07+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/export.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002103s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `reg_reginfo`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0036s ]
+SQL: SELECT `title` FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0033s ]
+SQL: SELECT `college` FROM `reg_college` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0037s ]
+SQL: SELECT TE.CODE,TA.SCORE,TA.SUGGEST FROM reg_task AS TA left join reg_teacher AS TE on TA.pwid=TE.id  WHERE `projectid` = '6'  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: score D:\phpStudy\WWW\signup\Admin\Home\Controller\ReginfoController.class.php 第 78 行.
+
+[ 2016-10-15T01:41:07+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/reginfo/m/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000180s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002969s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `matchid` = 1 ORDER BY date desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0035s ]
+SQL: SELECT TE.CODE,TA.SCORE,TA.SUGGEST FROM reg_task AS TA left join reg_teacher AS TE on TA.pwid=TE.id  WHERE `projectid` = '6'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `reg_college` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `reg_college`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000372s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001755s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002247s ]
+
+[ 2016-10-15T01:41:08+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/export.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000168s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002653s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `reg_reginfo`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0037s ]
+SQL: SELECT `title` FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0037s ]
+SQL: SELECT `college` FROM `reg_college` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0036s ]
+SQL: SELECT TE.CODE,TA.SCORE,TA.SUGGEST FROM reg_task AS TA left join reg_teacher AS TE on TA.pwid=TE.id  WHERE `projectid` = '6'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: score D:\phpStudy\WWW\signup\Admin\Home\Controller\ReginfoController.class.php 第 78 行.
+
+[ 2016-10-15T01:42:40+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/export.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000314s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002882s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `reg_reginfo`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0044s ]
+SQL: SELECT `title` FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0039s ]
+SQL: SELECT `college` FROM `reg_college` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0041s ]
+SQL: SELECT TE.CODE,TA.SCORE,TA.SUGGEST FROM reg_task AS TA left join reg_teacher AS TE on TA.pwid=TE.id  WHERE `projectid` = '6'  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: score D:\phpStudy\WWW\signup\Admin\Home\Controller\ReginfoController.class.php 第 78 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\Admin\Home\Controller\ReginfoController.class.php 第 108 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\Admin\Home\Controller\ReginfoController.class.php 第 108 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\Admin\Home\Controller\ReginfoController.class.php 第 108 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\Admin\Home\Controller\ReginfoController.class.php 第 108 行.
+
+[ 2016-10-15T01:43:03+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/export.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002319s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `reg_reginfo`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0037s ]
+SQL: SELECT `title` FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0031s ]
+SQL: SELECT `college` FROM `reg_college` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0036s ]
+SQL: SELECT TE.CODE,TA.SCORE,TA.SUGGEST FROM reg_task AS TA left join reg_teacher AS TE on TA.pwid=TE.id  WHERE `projectid` = '6'  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: score D:\phpStudy\WWW\signup\Admin\Home\Controller\ReginfoController.class.php 第 78 行.
+
+[ 2016-10-15T01:43:45+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/export.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002622s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `reg_reginfo`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0038s ]
+SQL: SELECT `title` FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0035s ]
+SQL: SELECT `college` FROM `reg_college` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0032s ]
+SQL: SELECT TE.CODE,TA.SCORE,TA.SUGGEST FROM reg_task AS TA left join reg_teacher AS TE on TA.pwid=TE.id  WHERE `projectid` = '6'  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: score D:\phpStudy\WWW\signup\Admin\Home\Controller\ReginfoController.class.php 第 78 行.
+
+[ 2016-10-15T01:44:10+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/reginfo/m/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000372s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004545s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `matchid` = 1 ORDER BY date desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0038s ]
+SQL: SELECT TE.CODE,TA.SCORE,TA.SUGGEST FROM reg_task AS TA left join reg_teacher AS TE on TA.pwid=TE.id  WHERE `projectid` = '6'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `reg_college` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `reg_college`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000345s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002155s ]
+
+[ 2016-10-15T01:44:11+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/export.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002109s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `reg_reginfo`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0036s ]
+SQL: SELECT `title` FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0034s ]
+SQL: SELECT `college` FROM `reg_college` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0031s ]
+SQL: SELECT TE.CODE,TA.SCORE,TA.SUGGEST FROM reg_task AS TA left join reg_teacher AS TE on TA.pwid=TE.id  WHERE `projectid` = '6'  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: score D:\phpStudy\WWW\signup\Admin\Home\Controller\ReginfoController.class.php 第 78 行.
+
+[ 2016-10-15T01:45:32+08:00 ] 127.0.0.1 /signup/admin.php/Home/Reginfo/getAllInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001914s ]
+SQL: SHOW COLUMNS FROM `reg_admin` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `reg_admin` WHERE `id` = 1 AND `username` = 'admin' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 161 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 164 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 167 行.
+NOTIC: [8] Undefined index: result D:\phpStudy\WWW\signup\Admin\Home\Model\CommonModel.class.php 第 178 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003299s ]
+
+[ 2016-10-15T01:46:22+08:00 ] 127.0.0.1 /signup/admin.php/Home/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000377s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002612s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000436s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001710s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002958s ]
+
+[ 2016-10-15T01:46:24+08:00 ] 127.0.0.1 /signup/admin.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000200s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002296s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000354s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002298s ]
+
+[ 2016-10-15T01:46:25+08:00 ] 127.0.0.1 /signup/admin.php/Home/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003503s ]
+

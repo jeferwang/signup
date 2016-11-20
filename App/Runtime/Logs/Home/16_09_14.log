@@ -1,0 +1,630 @@
+[ 2016-09-14T14:27:19+08:00 ] 127.0.0.1 /signup/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014133s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.018955s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.019032s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008363s ]
+
+[ 2016-09-14T20:03:47+08:00 ] 127.0.0.1 /signup/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001494s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.023146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.023232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001379s ]
+
+[ 2016-09-14T20:08:34+08:00 ] 127.0.0.1 /signup/index.php/Home/Teashow/index/type/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+SQL: SHOW COLUMNS FROM `reg_teashow` [ RunTime:0.0085s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\signup\App\Home\Controller\TeashowController.class.php 第 13 行.
+SQL: SELECT * FROM `reg_teashow` WHERE `type` = '1' ORDER BY id asc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reg_teashow` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\793b10170a90507c94710ad6b2857c78.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001177s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001246s ]
+
+[ 2016-09-14T20:12:50+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+SQL: SHOW COLUMNS FROM `reg_student` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `reg_student` WHERE `code` = 'jsj1721' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-09-14T20:12:51+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+SQL: SHOW COLUMNS FROM `reg_student` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `reg_student` WHERE `id` = 66 AND `code` = 'jsj1721' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 172 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.1044s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `code` = 'jsj1721' LIMIT 1   [ RunTime:0.0132s ]
+SQL: SELECT `matchid` FROM `reg_student` WHERE `id` = 66 AND `code` = 'jsj1721' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 172 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `matchid` = 172  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2016-09-14T20:12:55+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/myinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `stuid` = '66' AND `code` = 'jsj1721' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000879s ]
+
+[ 2016-09-14T20:13:08+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+SQL: SHOW COLUMNS FROM `reg_student` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `reg_student` WHERE `id` = 66 AND `code` = 'jsj1721' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 172 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `code` = 'jsj1721' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `matchid` FROM `reg_student` WHERE `id` = 66 AND `code` = 'jsj1721' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 172 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `matchid` = 172  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000818s ]
+
+[ 2016-09-14T20:14:17+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/myinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `stuid` = '66' AND `code` = 'jsj1721' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000826s ]
+
+[ 2016-09-14T20:14:22+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `reg_student` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `reg_student` WHERE `id` = 66 AND `code` = 'jsj1721' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 172 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `code` = 'jsj1721' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `matchid` FROM `reg_student` WHERE `id` = 66 AND `code` = 'jsj1721' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 172 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `matchid` = 172  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000823s ]
+
+[ 2016-09-14T20:16:34+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/myinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `stuid` = '66' AND `code` = 'jsj1721' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2016-09-14T20:16:58+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/logout/type/student.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001354s ]
+
+[ 2016-09-14T20:17:00+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2016-09-14T20:17:09+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+SQL: SHOW COLUMNS FROM `reg_teacher` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `code` = 'hpu1721t' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-09-14T20:17:09+08:00 ] 127.0.0.1 /signup/index.php/Home/Teacher/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `reg_teacher` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `id` = 130 AND `code` = 'hpu1721t' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `reg_college` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 172 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0057s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\signup\App\Home\Controller\TeacherController.class.php 第 50 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\signup\ThinkPHP\Library\Think\Db\Driver.class.php 第 961 行.
+SQL: SELECT * FROM `reg_reginfo` WHERE `matchid` = 172 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reg_reginfo` WHERE `matchid` = 172 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000811s ]
+
+[ 2016-09-14T20:17:11+08:00 ] 127.0.0.1 /signup/index.php/Home/Examine/examineTeam/id/105.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` = 105 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `reg_teacher` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `id` = 130 AND `code` = 'hpu1721t' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2016-09-14T20:18:36+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/logout/type/teacher.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006314s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2016-09-14T20:18:37+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006661s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000867s ]
+
+[ 2016-09-14T20:18:45+08:00 ] 127.0.0.1 /signup/index.php/Home/Teashow/index/type/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `reg_teashow` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\signup\App\Home\Controller\TeashowController.class.php 第 13 行.
+SQL: SELECT * FROM `reg_teashow` WHERE `type` = '1' ORDER BY id asc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reg_teashow` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\793b10170a90507c94710ad6b2857c78.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008178s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2016-09-14T20:18:52+08:00 ] 127.0.0.1 /signup/index.php/Home/Teashow/index/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+SQL: SHOW COLUMNS FROM `reg_teashow` [ RunTime:0.0074s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\signup\App\Home\Controller\TeashowController.class.php 第 13 行.
+SQL: SELECT * FROM `reg_teashow` WHERE `type` = '2' ORDER BY id asc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reg_teashow` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\793b10170a90507c94710ad6b2857c78.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2016-09-14T21:01:09+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+SQL: SHOW COLUMNS FROM `reg_student` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `reg_student` WHERE `code` = 'jsj1721' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 172 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-09-14T21:01:09+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+SQL: SHOW COLUMNS FROM `reg_student` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `reg_student` WHERE `id` = 66 AND `code` = 'jsj1721' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 172 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `code` = 'jsj1721' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `matchid` FROM `reg_student` WHERE `id` = 66 AND `code` = 'jsj1721' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 172 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `matchid` = 172  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001109s ]
+
+[ 2016-09-14T21:01:21+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `reg_student` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `reg_student` WHERE `code` = 'jsj1721' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 172 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000702s ]
+
+[ 2016-09-14T21:01:28+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `reg_teacher` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `code` = 'jsj1721t' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 172 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006397s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000659s ]
+
+[ 2016-09-14T21:01:55+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+SQL: SHOW COLUMNS FROM `reg_teacher` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `code` = 'jsj1721t' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 172 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000652s ]
+
+[ 2016-09-14T21:02:03+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+SQL: SHOW COLUMNS FROM `reg_teacher` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `code` = 'jsj1721t' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 172 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-09-14T21:02:03+08:00 ] 127.0.0.1 /signup/index.php/Home/Teacher/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+SQL: SHOW COLUMNS FROM `reg_teacher` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `id` = 135 AND `code` = 'jsj1721t' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `reg_college` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 172 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0064s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\signup\App\Home\Controller\TeacherController.class.php 第 50 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\signup\ThinkPHP\Library\Think\Db\Driver.class.php 第 961 行.
+SQL: SELECT * FROM `reg_reginfo` WHERE `collegeid` = 6 AND `matchid` = 172 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reg_reginfo` WHERE `collegeid` = 6 AND `matchid` = 172 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000900s ]
+
+[ 2016-09-14T21:02:05+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/logout/type/teacher.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001071s ]
+
+[ 2016-09-14T21:02:07+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2016-09-14T21:33:02+08:00 ] 127.0.0.1 /signup/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001054s ]
+

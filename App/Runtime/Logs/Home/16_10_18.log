@@ -1,0 +1,2514 @@
+[ 2016-10-18T12:49:58+08:00 ] 127.0.0.1 /signup/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000176s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012694s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.022260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.023155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012825s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013801s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006689s ]
+
+[ 2016-10-18T12:50:08+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000237s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002518s ]
+SQL: SHOW COLUMNS FROM `reg_student` [ RunTime:0.1328s ]
+SQL: SELECT * FROM `reg_student` WHERE `code` = 'jsj11' LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0406s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-10-18T12:50:08+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000171s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002681s ]
+SQL: SHOW COLUMNS FROM `reg_student` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `reg_student` WHERE `id` = 1 AND `code` = 'jsj11' LIMIT 1   [ RunTime:0.0113s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0331s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `code` = 'jsj11' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `matchid` FROM `reg_student` WHERE `id` = 1 AND `code` = 'jsj11' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `matchid` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_teacher` [ RunTime:0.0399s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `id` = null LIMIT 1   [ RunTime:0.0084s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000357s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.231224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.232109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003015s ]
+
+[ 2016-10-18T12:50:17+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/myinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002357s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `stuid` = '1' AND `code` = 'jsj11' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0752s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '6'  [ RunTime:0.0366s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000404s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001698s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 135 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 139 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.149985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.150822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002910s ]
+
+[ 2016-10-18T12:55:30+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/myinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000168s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001881s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004073s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `stuid` = '1' AND `code` = 'jsj11' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '6'  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000410s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001279s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 148 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 152 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060967s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002582s ]
+
+[ 2016-10-18T12:55:58+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/myinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000172s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002249s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `stuid` = '1' AND `code` = 'jsj11' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '6'  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000391s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001205s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 150 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 154 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 158 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002712s ]
+
+[ 2016-10-18T12:56:39+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/myinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002146s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `stuid` = '1' AND `code` = 'jsj11' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '6'  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000782s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001818s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 148 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 152 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002954s ]
+
+[ 2016-10-18T12:57:14+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/myinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000162s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002070s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `stuid` = '1' AND `code` = 'jsj11' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '6'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000388s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002010s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 148 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 152 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054426s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003264s ]
+
+[ 2016-10-18T12:58:14+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/logout/type/student.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000165s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003625s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000386s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032044s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005463s ]
+
+[ 2016-10-18T12:58:16+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000205s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002209s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000567s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001870s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002509s ]
+
+[ 2016-10-18T12:58:21+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000204s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002232s ]
+SQL: SHOW COLUMNS FROM `reg_student` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `reg_student` WHERE `code` = 'jsj12' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-10-18T12:58:21+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000165s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001996s ]
+SQL: SHOW COLUMNS FROM `reg_student` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `reg_student` WHERE `id` = 3 AND `code` = 'jsj12' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `code` = 'jsj12' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000388s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002659s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002422s ]
+
+[ 2016-10-18T12:59:13+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/runUpload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000166s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001839s ]
+SQL: SHOW COLUMNS FROM `reg_student` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `reg_student` WHERE `id` = 3 AND `code` = 'jsj12' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `code` = 'jsj12' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\signup\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `reg_reginfo` (`code`,`stuid`,`team`,`title`,`type`,`info`,`teaminfo`,`guide`,`collegeid`,`matchid`,`fileroute`,`date`,`status`) VALUES ('jsj12','3','1','2','科技发明制作类','3','[\"1-2-3-4-5\",\"2-2-3-4-5\",\"3-2-3-4-5\",\"4-2-3-4-5\",\"5-2-3-4-5\",\"6-2-3-4-5\",\"7-2-3-4-5\"]','[\"wxj-\\u8ba1\\u7b97\\u673a\\u5b66\\u9662\"]','1','1','{\"shenbaoshu\":{\"name\":\"2.WPS\",\"type\":\"application\\/octet-stream\",\"size\":0,\"key\":\"shenbaoshu\",\"ext\":\"WPS\",\"md5\":\"d41d8cd98f00b204e9800998ecf8427e\",\"sha1\":\"da39a3ee5e6b4b0d3255bfef95601890afd80709\",\"savename\":\"5805ac20e5854.WPS\",\"savepath\":\"\\/Match\\/Stu\\/jsj12\\/\"}}','1476766752','0') [ RunTime:0.0693s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000432s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005402s ]
+
+[ 2016-10-18T12:59:14+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000181s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002679s ]
+SQL: SHOW COLUMNS FROM `reg_student` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `reg_student` WHERE `id` = 3 AND `code` = 'jsj12' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `code` = 'jsj12' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `matchid` FROM `reg_student` WHERE `id` = 3 AND `code` = 'jsj12' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `matchid` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_teacher` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `id` = null LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000609s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001979s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002990s ]
+
+[ 2016-10-18T12:59:14+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000163s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005436s ]
+SQL: SHOW COLUMNS FROM `reg_student` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `reg_student` WHERE `id` = 3 AND `code` = 'jsj12' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `code` = 'jsj12' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `matchid` FROM `reg_student` WHERE `id` = 3 AND `code` = 'jsj12' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `matchid` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_teacher` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000699s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004726s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005526s ]
+
+[ 2016-10-18T13:00:32+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000170s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002176s ]
+SQL: SHOW COLUMNS FROM `reg_student` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `reg_student` WHERE `id` = 3 AND `code` = 'jsj12' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `code` = 'jsj12' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `matchid` FROM `reg_student` WHERE `id` = 3 AND `code` = 'jsj12' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `matchid` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_teacher` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `id` = null LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000392s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001311s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053509s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002925s ]
+
+[ 2016-10-18T13:01:39+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/myinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000171s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002484s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `stuid` = '3' AND `code` = 'jsj12' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000489s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001356s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 136 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 148 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 152 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 156 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 160 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001460s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002490s ]
+
+[ 2016-10-18T13:02:18+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/myinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003031s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `stuid` = '3' AND `code` = 'jsj12' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000431s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001277s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 136 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 148 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 152 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 156 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 160 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001899s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002338s ]
+
+[ 2016-10-18T13:02:22+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/myinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000293s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002914s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003074s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `stuid` = '3' AND `code` = 'jsj12' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000402s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001422s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 136 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 148 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 152 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 156 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 160 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002788s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002769s ]
+
+[ 2016-10-18T13:02:52+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/myinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002780s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `stuid` = '3' AND `code` = 'jsj12' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000406s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001266s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 136 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 148 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 152 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 156 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 160 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002299s ]
+
+[ 2016-10-18T13:03:33+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/myinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000166s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002169s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `stuid` = '3' AND `code` = 'jsj12' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000400s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001221s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 136 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 148 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 152 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 156 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 160 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001916s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002109s ]
+
+[ 2016-10-18T13:04:02+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/myinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000163s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002313s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `stuid` = '3' AND `code` = 'jsj12' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000413s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001304s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 136 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 148 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 152 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 156 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 160 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001971s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002057s ]
+
+[ 2016-10-18T13:04:34+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/myinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000190s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002628s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `stuid` = '3' AND `code` = 'jsj12' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000404s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001233s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 136 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 148 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 152 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 156 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 160 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001892s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002278s ]
+
+[ 2016-10-18T13:04:43+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/myinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000164s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002683s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `stuid` = '3' AND `code` = 'jsj12' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000401s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001302s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 136 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 148 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 152 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 156 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 160 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076090s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001966s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003033s ]
+
+[ 2016-10-18T13:06:03+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/myinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000160s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002636s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `stuid` = '3' AND `code` = 'jsj12' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000408s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001873s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 136 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 148 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 152 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 156 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 160 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002549s ]
+
+[ 2016-10-18T13:06:43+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/myinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000164s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001942s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003069s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `stuid` = '3' AND `code` = 'jsj12' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000422s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001334s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 139 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 152 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 156 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 160 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 164 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072179s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002881s ]
+
+[ 2016-10-18T13:06:51+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/myinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002939s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `stuid` = '3' AND `code` = 'jsj12' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000420s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001385s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 139 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 152 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 156 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 160 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 164 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053265s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002788s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004216s ]
+
+[ 2016-10-18T13:07:46+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/myinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001880s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003180s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `stuid` = '3' AND `code` = 'jsj12' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000623s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001785s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 139 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 152 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 156 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 160 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 164 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053821s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002493s ]
+
+[ 2016-10-18T13:07:47+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000285s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002532s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-10-18T13:08:01+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/myinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000164s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002173s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `stuid` = '3' AND `code` = 'jsj12' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000389s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001224s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 139 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 152 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 156 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 160 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 164 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001939s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003615s ]
+
+[ 2016-10-18T13:08:01+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000172s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003052s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-10-18T13:08:39+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/myinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000165s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002741s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `stuid` = '3' AND `code` = 'jsj12' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000403s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001270s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 139 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 152 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 156 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 160 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 164 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001910s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002772s ]
+
+[ 2016-10-18T13:08:40+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002684s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-10-18T13:08:52+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/myinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000171s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001863s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002840s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `stuid` = '3' AND `code` = 'jsj12' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000421s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001450s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 139 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 152 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 156 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 160 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 164 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003328s ]
+
+[ 2016-10-18T13:08:52+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000277s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003537s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-10-18T13:09:07+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/myinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000245s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002330s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `stuid` = '3' AND `code` = 'jsj12' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000466s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001560s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 139 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 152 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 156 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 160 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 164 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003041s ]
+
+[ 2016-10-18T13:09:07+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000170s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003592s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-10-18T13:09:37+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/myinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000293s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002660s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `stuid` = '3' AND `code` = 'jsj12' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000414s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001286s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 139 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 152 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 156 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 160 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 164 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058395s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003119s ]
+
+[ 2016-10-18T13:09:38+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000165s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002959s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-10-18T13:09:48+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/myinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000170s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002142s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `stuid` = '3' AND `code` = 'jsj12' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000548s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001406s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 138 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 151 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 155 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 159 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 163 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055432s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002868s ]
+
+[ 2016-10-18T13:09:48+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000303s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003459s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-10-18T13:10:36+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/myinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000162s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002404s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `stuid` = '3' AND `code` = 'jsj12' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000440s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001489s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 138 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 151 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 155 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 159 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 163 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002729s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002575s ]
+
+[ 2016-10-18T13:11:19+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/myinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000192s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002718s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `stuid` = '3' AND `code` = 'jsj12' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000636s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001819s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 138 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 151 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 155 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 159 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 163 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063418s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002731s ]
+
+[ 2016-10-18T13:11:42+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/myinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000240s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003141s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `stuid` = '3' AND `code` = 'jsj12' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000412s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001262s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 138 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 151 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 155 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 159 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 163 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003016s ]
+
+[ 2016-10-18T13:14:51+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/logout/type/student.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000167s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002954s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000395s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002316s ]
+
+[ 2016-10-18T13:14:52+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002152s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000376s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002270s ]
+
+[ 2016-10-18T13:14:57+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000165s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001876s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002075s ]
+SQL: SHOW COLUMNS FROM `reg_teacher` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `code` = 'hpu11' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000377s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001460s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002256s ]
+
+[ 2016-10-18T13:15:02+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000180s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001957s ]
+SQL: SHOW COLUMNS FROM `reg_teacher` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `code` = 'hpu11t' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-10-18T13:15:02+08:00 ] 127.0.0.1 /signup/index.php/Home/Teacher/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000279s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002130s ]
+SQL: SHOW COLUMNS FROM `reg_teacher` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `id` = 4 AND `code` = 'hpu11t' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0404s ]
+SQL: SELECT * FROM `reg_college` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\signup\App\Home\Controller\TeacherController.class.php 第 53 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\signup\ThinkPHP\Library\Think\Db\Driver.class.php 第 961 行.
+SQL: SELECT * FROM `reg_reginfo` WHERE `matchid` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0447s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reg_reginfo` WHERE `matchid` = 1 LIMIT 1   [ RunTime:0.0466s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000399s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002875s ]
+
+[ 2016-10-18T13:15:05+08:00 ] 127.0.0.1 /signup/index.php/Home/Examine/examineTeam/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000167s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002217s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `reg_teacher` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `id` = 4 AND `code` = 'hpu11t' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000402s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001223s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\6c4adc63195ab2af1589de513bfade4a.php 第 204 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\6c4adc63195ab2af1589de513bfade4a.php 第 229 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\6c4adc63195ab2af1589de513bfade4a.php 第 233 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\6c4adc63195ab2af1589de513bfade4a.php 第 237 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\6c4adc63195ab2af1589de513bfade4a.php 第 241 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069106s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001197s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002024s ]
+
+[ 2016-10-18T13:15:16+08:00 ] 127.0.0.1 /signup/index.php/Home/Examine/examineTeam/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000168s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002921s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `reg_teacher` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `id` = 4 AND `code` = 'hpu11t' LIMIT 1   [ RunTime:0.0043s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000758s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002635s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\6c4adc63195ab2af1589de513bfade4a.php 第 203 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\6c4adc63195ab2af1589de513bfade4a.php 第 228 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\6c4adc63195ab2af1589de513bfade4a.php 第 232 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\6c4adc63195ab2af1589de513bfade4a.php 第 236 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\6c4adc63195ab2af1589de513bfade4a.php 第 240 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.187926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.190035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005223s ]
+
+[ 2016-10-18T13:15:54+08:00 ] 127.0.0.1 /signup/index.php/Home/Examine/examineTeam/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000162s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002900s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `reg_teacher` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `id` = 4 AND `code` = 'hpu11t' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000410s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001236s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\6c4adc63195ab2af1589de513bfade4a.php 第 203 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\6c4adc63195ab2af1589de513bfade4a.php 第 228 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\6c4adc63195ab2af1589de513bfade4a.php 第 232 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\6c4adc63195ab2af1589de513bfade4a.php 第 236 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\6c4adc63195ab2af1589de513bfade4a.php 第 240 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002137s ]
+
+[ 2016-10-18T13:17:29+08:00 ] 127.0.0.1 /signup/index.php/Home/Examine/examineTeam/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000163s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002483s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `reg_teacher` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `id` = 4 AND `code` = 'hpu11t' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000604s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002156s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\6c4adc63195ab2af1589de513bfade4a.php 第 203 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\6c4adc63195ab2af1589de513bfade4a.php 第 228 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\6c4adc63195ab2af1589de513bfade4a.php 第 232 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\6c4adc63195ab2af1589de513bfade4a.php 第 236 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\6c4adc63195ab2af1589de513bfade4a.php 第 240 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001736s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002861s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002766s ]
+
+[ 2016-10-18T13:17:54+08:00 ] 127.0.0.1 /signup/index.php/Home/Examine/examineTeam/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000155s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002554s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `reg_teacher` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `id` = 4 AND `code` = 'hpu11t' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000637s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002028s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\6c4adc63195ab2af1589de513bfade4a.php 第 206 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\6c4adc63195ab2af1589de513bfade4a.php 第 231 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\6c4adc63195ab2af1589de513bfade4a.php 第 235 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\6c4adc63195ab2af1589de513bfade4a.php 第 239 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\6c4adc63195ab2af1589de513bfade4a.php 第 243 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.147193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.148640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002741s ]
+
+[ 2016-10-18T13:18:03+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/logout/type/teacher.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000168s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003047s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000381s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001274s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003425s ]
+
+[ 2016-10-18T13:18:06+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000159s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002115s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000417s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001450s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002775s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002777s ]
+
+[ 2016-10-18T13:18:40+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000185s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002203s ]
+SQL: SHOW COLUMNS FROM `reg_student` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `reg_student` WHERE `code` = 'pw11t' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000753s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001669s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001773s ]
+
+[ 2016-10-18T13:18:45+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000168s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002120s ]
+SQL: SHOW COLUMNS FROM `reg_teacher` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `code` = 'pw11t' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-10-18T13:18:45+08:00 ] 127.0.0.1 /signup/index.php/Home/Teacher/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000167s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002263s ]
+SQL: SHOW COLUMNS FROM `reg_teacher` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `id` = 3 AND `code` = 'pw11t' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `reg_college` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `reg_task` WHERE `pwid` = 3  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0046s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\signup\App\Home\Controller\TeacherController.class.php 第 53 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\signup\ThinkPHP\Library\Think\Db\Driver.class.php 第 961 行.
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` IN ('6','7') ORDER BY id asc LIMIT 0,20   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `score` FROM `reg_task` WHERE `pwid` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reg_reginfo` WHERE `id` IN ('6','7') LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000384s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002711s ]
+
+[ 2016-10-18T13:19:48+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/logout/type/teacher.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000219s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002338s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000403s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001350s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002466s ]
+
+[ 2016-10-18T13:19:49+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000167s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001629s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002166s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000367s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001339s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022084s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-10-18T13:19:56+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000168s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002006s ]
+SQL: SHOW COLUMNS FROM `reg_teacher` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `code` = 'hpu11t' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-10-18T13:19:56+08:00 ] 127.0.0.1 /signup/index.php/Home/Teacher/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000228s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003322s ]
+SQL: SHOW COLUMNS FROM `reg_teacher` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `id` = 4 AND `code` = 'hpu11t' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `reg_college` WHERE `id` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0051s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\signup\App\Home\Controller\TeacherController.class.php 第 53 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\signup\ThinkPHP\Library\Think\Db\Driver.class.php 第 961 行.
+SQL: SELECT * FROM `reg_reginfo` WHERE `matchid` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reg_reginfo` WHERE `matchid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000389s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001922s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002122s ]
+
+[ 2016-10-18T13:19:58+08:00 ] 127.0.0.1 /signup/index.php/Home/Examine/examineTeam/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002677s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `reg_teacher` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `id` = 4 AND `code` = 'hpu11t' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002080s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\6c4adc63195ab2af1589de513bfade4a.php 第 206 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\6c4adc63195ab2af1589de513bfade4a.php 第 231 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\6c4adc63195ab2af1589de513bfade4a.php 第 235 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\6c4adc63195ab2af1589de513bfade4a.php 第 239 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\6c4adc63195ab2af1589de513bfade4a.php 第 243 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001956s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002311s ]
+
+[ 2016-10-18T13:20:07+08:00 ] 127.0.0.1 /signup/index.php/Home/Examine/examineFalse.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000162s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001978s ]
+SQL: SHOW COLUMNS FROM `reg_teacher` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `id` = 4 AND `code` = 'hpu11t' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `reg_reginfo` SET `status`='5',`reason`='不行' WHERE `id` = 7 [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000338s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015850s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001744s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002048s ]
+
+[ 2016-10-18T13:20:09+08:00 ] 127.0.0.1 /signup/index.php/Home/Teacher/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000163s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001990s ]
+SQL: SHOW COLUMNS FROM `reg_teacher` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `id` = 4 AND `code` = 'hpu11t' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `reg_college` WHERE `id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0046s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\signup\App\Home\Controller\TeacherController.class.php 第 53 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\signup\ThinkPHP\Library\Think\Db\Driver.class.php 第 961 行.
+SQL: SELECT * FROM `reg_reginfo` WHERE `matchid` = 1 ORDER BY id asc LIMIT 0,20   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reg_reginfo` WHERE `matchid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000361s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002106s ]
+
+[ 2016-10-18T13:20:10+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/logout/type/teacher.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000160s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002801s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000362s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001827s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002192s ]
+
+[ 2016-10-18T13:20:11+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000190s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002320s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000347s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002467s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002495s ]
+
+[ 2016-10-18T13:20:19+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000174s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002330s ]
+SQL: SHOW COLUMNS FROM `reg_student` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `reg_student` WHERE `code` = 'jsj11' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-10-18T13:20:19+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000158s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002108s ]
+SQL: SHOW COLUMNS FROM `reg_student` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `reg_student` WHERE `id` = 1 AND `code` = 'jsj11' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `code` = 'jsj11' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `matchid` FROM `reg_student` WHERE `id` = 1 AND `code` = 'jsj11' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `matchid` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_teacher` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000356s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002074s ]
+
+[ 2016-10-18T13:20:26+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/logout/type/student.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000166s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002546s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000468s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001517s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001956s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001189s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002037s ]
+
+[ 2016-10-18T13:20:27+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000160s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002462s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000418s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001393s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002302s ]
+
+[ 2016-10-18T13:20:31+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000169s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001876s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002125s ]
+SQL: SHOW COLUMNS FROM `reg_student` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `reg_student` WHERE `code` = 'jsj12' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-10-18T13:20:31+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000164s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001941s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002123s ]
+SQL: SHOW COLUMNS FROM `reg_student` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `reg_student` WHERE `id` = 3 AND `code` = 'jsj12' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `code` = 'jsj12' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `matchid` FROM `reg_student` WHERE `id` = 3 AND `code` = 'jsj12' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `matchid` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_teacher` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `id` = null LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000359s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002244s ]
+
+[ 2016-10-18T13:20:33+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/myinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000158s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002224s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `stuid` = '3' AND `code` = 'jsj12' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000374s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001165s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 138 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 151 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 155 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 159 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 163 行.
+NOTIC: [8] Use of undefined constant 暂无建议 - assumed '暂无建议' D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001937s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001126s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001917s ]
+
+[ 2016-10-18T13:21:45+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/myinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000243s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002806s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `stuid` = '3' AND `code` = 'jsj12' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000465s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001255s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 138 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 151 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 155 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 159 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 163 行.
+NOTIC: [8] Use of undefined constant 暂无建议 - assumed '暂无建议' D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054539s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002524s ]
+
+[ 2016-10-18T13:23:05+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/myinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000273s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002433s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `stuid` = '3' AND `code` = 'jsj12' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000474s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001302s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 138 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 151 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 155 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 159 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 163 行.
+NOTIC: [8] Use of undefined constant 暂无建议 - assumed '暂无建议' D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002311s ]
+
+[ 2016-10-18T13:23:50+08:00 ] 127.0.0.1 /signup/index.php/Home/Student/myinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000231s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001868s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002204s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `stuid` = '3' AND `code` = 'jsj12' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000390s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001195s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 138 行.
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 151 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 155 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 159 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 163 行.
+NOTIC: [8] Use of undefined constant 暂无建议 - assumed '暂无建议' D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\a49936a11659c63b40092a434b54cb70.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053314s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001142s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001973s ]
+
+[ 2016-10-18T13:23:52+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/logout/type/student.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000157s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002297s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000358s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002413s ]
+
+[ 2016-10-18T13:23:54+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002362s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000357s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002294s ]
+
+[ 2016-10-18T13:24:01+08:00 ] 127.0.0.1 /signup/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000165s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `reg_teacher` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `code` = 'pw11t' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-10-18T13:24:01+08:00 ] 127.0.0.1 /signup/index.php/Home/Teacher/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000194s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002400s ]
+SQL: SHOW COLUMNS FROM `reg_teacher` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `id` = 3 AND `code` = 'pw11t' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `reg_college` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `reg_task` WHERE `pwid` = 3  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0054s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\signup\App\Home\Controller\TeacherController.class.php 第 53 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\signup\ThinkPHP\Library\Think\Db\Driver.class.php 第 961 行.
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` IN ('6','7') ORDER BY id asc LIMIT 0,20   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `score` FROM `reg_task` WHERE `pwid` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reg_reginfo` WHERE `id` IN ('6','7') LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000527s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001523s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037183s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002166s ]
+
+[ 2016-10-18T13:24:03+08:00 ] 127.0.0.1 /signup/index.php/Home/Evaluate/teamInfo/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001796s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002076s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000390s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001215s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 163 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 167 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 171 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 175 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001771s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001197s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002062s ]
+
+[ 2016-10-18T13:24:33+08:00 ] 127.0.0.1 /signup/index.php/Home/Evaluate/teamInfo/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000158s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002274s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000442s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001304s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 163 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 167 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 171 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 175 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001831s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001853s ]
+
+[ 2016-10-18T13:24:48+08:00 ] 127.0.0.1 /signup/index.php/Home/Evaluate/teamInfo/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000158s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002511s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000406s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001299s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 163 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 167 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 171 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 175 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048432s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002158s ]
+
+[ 2016-10-18T13:24:56+08:00 ] 127.0.0.1 /signup/index.php/Home/Evaluate/teamInfo/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000171s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002728s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002424s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 163 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 167 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 171 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 175 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002865s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002252s ]
+
+[ 2016-10-18T13:25:01+08:00 ] 127.0.0.1 /signup/index.php/Home/Evaluate/teamInfo/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002701s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000379s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001199s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 163 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 167 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 171 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 175 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002154s ]
+
+[ 2016-10-18T13:25:10+08:00 ] 127.0.0.1 /signup/index.php/Home/Evaluate/teamInfo/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000158s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002669s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000404s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001249s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 163 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 167 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 171 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 175 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002938s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002898s ]
+
+[ 2016-10-18T13:25:41+08:00 ] 127.0.0.1 /signup/index.php/Home/Evaluate/teamInfo/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000176s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002243s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000924s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001960s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 166 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 170 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 174 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 178 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002233s ]
+
+[ 2016-10-18T13:34:19+08:00 ] 127.0.0.1 /signup/index.php/Home/Evaluate/runEvaluate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003349s ]
+SQL: SHOW COLUMNS FROM `reg_teacher` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `id` = 3 AND `code` = 'pw11t' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000558s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001790s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002998s ]
+
+[ 2016-10-18T13:34:23+08:00 ] 127.0.0.1 /signup/index.php/Home/Evaluate/teamInfo/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000169s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002129s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000441s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001340s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 166 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 170 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 174 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 178 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003236s ]
+
+[ 2016-10-18T13:34:24+08:00 ] 127.0.0.1 /signup/index.php/Home/Evaluate/teamInfo/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000166s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003240s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000396s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001245s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 166 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 170 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 174 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 178 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002795s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003252s ]
+
+[ 2016-10-18T13:34:42+08:00 ] 127.0.0.1 /signup/index.php/Home/Evaluate/teamInfo/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000427s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003279s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `reg_task` left join reg_teacher on reg_task.pwid=reg_teacher.id  WHERE `projectid` = '7'  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 101 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 107 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Home\Model\CommonModel.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000420s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001343s ]
+NOTIC: [8] Undefined index: ppt D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 166 行.
+NOTIC: [8] Undefined index: tupian D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 170 行.
+NOTIC: [8] Undefined index: shuoming D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 174 行.
+NOTIC: [8] Undefined index: zuopin D:\phpStudy\WWW\signup\App\Runtime\Cache\Home\b52136c0ce0f953bf0c775e57fd2ad71.php 第 178 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003285s ]
+
+[ 2016-10-18T13:34:46+08:00 ] 127.0.0.1 /signup/index.php/Home/Evaluate/runEvaluate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000183s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001962s ]
+SQL: SHOW COLUMNS FROM `reg_teacher` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `id` = 3 AND `code` = 'pw11t' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `reg_reginfo` SET `status`='3' WHERE `id` = 7 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0045s ]
+SQL: UPDATE `reg_task` SET `score`='11',`suggest`='1111' WHERE `projectid` = 7 AND `pwid` = 3 [ RunTime:0.0568s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000398s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001298s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001887s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002192s ]
+
+[ 2016-10-18T13:34:49+08:00 ] 127.0.0.1 /signup/index.php/Home/Teacher/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000169s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `reg_teacher` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `id` = 3 AND `code` = 'pw11t' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_college` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `reg_college` WHERE `id` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `reg_match` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `reg_match` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_task` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `reg_task` WHERE `pwid` = 3  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `reg_reginfo` [ RunTime:0.0054s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\signup\App\Home\Controller\TeacherController.class.php 第 53 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\signup\ThinkPHP\Library\Think\Db\Driver.class.php 第 961 行.
+SQL: SELECT * FROM `reg_reginfo` WHERE `id` IN ('6','7') ORDER BY id asc LIMIT 0,20   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `score` FROM `reg_task` WHERE `pwid` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `reg_teacher` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `score` FROM `reg_task` WHERE `pwid` = 3 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reg_reginfo` WHERE `id` IN ('6','7') LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000421s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001415s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001996s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002904s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002634s ]
+
