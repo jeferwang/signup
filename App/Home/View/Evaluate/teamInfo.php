@@ -36,6 +36,10 @@
 	<script type="text/javascript">
 		$().ready(function () {
 			$("#shen_he").addClass("unselect");
+			$("#ping_fen").find('span').text('返回');
+			$("#ping_fen").click(function () {
+				window.location.href = "{:U('Teacher/index')}";
+			});
 		});
 	</script>
 </block>
