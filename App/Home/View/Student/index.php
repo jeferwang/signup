@@ -103,7 +103,7 @@
 					<textarea style="width: 100%;" rows="10" name="info"></textarea>
 					<br/>
 					<span>队伍信息：
-						<br/>请列举你的队伍的成员的信息<br>严格按照 <span style="color: mediumseagreen;">姓名-学号-学院-专业班级-联系方式</span>的格式填写(使用‘-’分割数据)</span>
+						<br/>请填写你的队伍的成员的信息<br>严格按照 <span style="color: mediumseagreen;">姓名-学号-学院-专业班级-联系方式</span>的格式填写(使用‘-’分割数据)</span>
 					<br/>
 					<fieldset id="teaminfo">
 						<legend>队员列表</legend>
