@@ -82,6 +82,14 @@
 		<label for="count">账号数目：<input type="number" name="count" placeholder="数目"></label>
 		<input type="submit" value="生成账号">
 	</form>
+	<form action="{:U('Account/change_student_password')}" method="post" style="margin: 10px 0 0 40px;">
+		<span>修改密码====></span>
+		<label for="">编号：</label>
+		<input type="text" name="code" placeholder="请输入编号">
+		<label for="">新密码：</label>
+		<input type="text" name="password" placeholder="请输入新密码">
+		<input type="submit" value="修改">
+	</form>
 	<table border="1" id="table" style="margin: 20px 0 0 2%; width: 97%;">
 		<tr>
 			<th align="center">ID</th>

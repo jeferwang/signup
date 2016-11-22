@@ -63,8 +63,8 @@ class AccountController extends Controller {
 		if ($my_info['loginip'] != $_SERVER['REMOTE_ADDR']) {
 			$this->error('非法访问！！！');
 		} else {
-			$count=M('Admin')->count();
-			if ($count==1) {
+			$count = M('Admin')->count();
+			if ($count == 1) {
 				$this->error('您不能删除仅有的一位管理员 :)');
 			}
 			$del = M('Admin')->where((array('id' => $_GET['id'])))->delete();
@@ -107,7 +107,7 @@ class AccountController extends Controller {
 
 //	学生列表
 	public function stuList() {
-		$sort='matchid desc,collegeid asc,num asc';
+		$sort = 'matchid desc,collegeid asc,num asc';
 		//	学生列表(包含添加学生的表单)
 		$list = M('Student')->order($sort)->page($_GET['p'], 20)->select();
 		foreach ($list as $k => $v) {
@@ -238,10 +238,11 @@ class AccountController extends Controller {
 		if ($my_info['loginip'] != $_SERVER['REMOTE_ADDR']) {
 			$this->error('非法访问！！！');
 		} else {
-			M('Teacher')->where(array('id' => $_GET['id']))->save(array("status"=>2));
+			M('Teacher')->where(array('id' => $_GET['id']))->save(array("status" => 2));
 			$this->success('禁用教师账户成功');
 		}
 	}
+	
 	//	执行回复老师账户方法
 	public function runRecTea() {
 		$coo_id = cookie('adminId');
@@ -250,7 +251,7 @@ class AccountController extends Controller {
 		if ($my_info['loginip'] != $_SERVER['REMOTE_ADDR']) {
 			$this->error('非法访问！！！');
 		} else {
-			M('Teacher')->where(array('id' => $_GET['id']))->save(array("status"=>1));
+			M('Teacher')->where(array('id' => $_GET['id']))->save(array("status" => 1));
 			$this->success('启用教师账户成功');
 		}
 	}
@@ -262,10 +263,11 @@ class AccountController extends Controller {
 		if ($my_info['loginip'] != $_SERVER['REMOTE_ADDR']) {
 			$this->error('非法访问！！！');
 		} else {
-			M('Teacher')->where(array('id' => $_GET['id']))->save(array("del"=>1));
+			M('Teacher')->where(array('id' => $_GET['id']))->save(array("del" => 1));
 			$this->success('删除教师账户成功');
 		}
 	}
+	
 	public function runRealDelStu() {
 		$coo_id = cookie('adminId');
 		$my_info = M('Admin')->where(array('id' => $coo_id))->find();
@@ -273,8 +275,36 @@ class AccountController extends Controller {
 		if ($my_info['loginip'] != $_SERVER['REMOTE_ADDR']) {
 			$this->error('非法访问！！！');
 		} else {
-			M('Student')->where(array('id' => $_GET['id']))->save(array("del"=>1));
+			M('Student')->where(array('id' => $_GET['id']))->save(array("del" => 1));
 			$this->success('删除学生账户成功');
+		}
+	}
+	
+	public function change_student_password() {
+		$code = $_POST['code'];
+		$new_password = $_POST['password'];
+		if (!trim($code) || !trim($new_password)) {
+			$this->error("编号和密码不能为空！");
+		}
+		$change = M("Student")->where(array('code' => $code))->save(array('password' => sha1($new_password)));
+		if ($change) {
+			$this->success("密码更改成功！");
+		} else {
+			$this->error("修改失败，请重试，修改的不能与原有密码一致");
+		}
+	}
+	
+	public function change_teacher_password() {
+		$code = $_POST['code'];
+		$new_password = $_POST['password'];
+		if (!trim($code) || !trim($new_password)) {
+			$this->error("编号和密码不能为空！");
+		}
+		$change = M("Teacher")->where(array('code' => $code))->save(array('password' => sha1($new_password)));
+		if ($change) {
+			$this->success("密码更改成功！");
+		} else {
+			$this->error("修改失败，请重试，修改的不能与原有密码一致");
 		}
 	}
 }
